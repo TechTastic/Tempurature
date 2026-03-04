@@ -21,8 +21,8 @@ hytale {
     }
 
     manifest {
-        Group = "HytaleModding"
-        Name = "ExamplePlugin"
-        Main = "dev.hytalemodding.ExamplePlugin"
+        Group = "TechTastic"
+        Name = "Tempurature"
+        Main = "io.github.techtastic.temperature.Temperature"
     }
 }
