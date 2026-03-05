@@ -1,0 +1,9 @@
+Group {
+    Anchor: (Bottom: 150, Right: 20, Width: 100, Height: 40);
+
+    Label #Temperature {
+        Style: (FontSize: 20, HorizontalAlignment: Center);
+        Text: "37.0°C";
+        Anchor: (Full: 0);
+    }
+}

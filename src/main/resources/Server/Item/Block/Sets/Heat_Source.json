@@ -1,0 +1,8 @@
+{
+  "IncludeBlockTypes": [
+    "*Fire",
+    "*_Campfire*",
+    "*_Campfire",
+    "*_Brazier"
+  ]
+}
