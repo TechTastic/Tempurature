@@ -1,0 +1,8 @@
+{
+  "InitialValue": 37,
+  "Min": 25,
+  "Max": 43,
+  "Shared": true,
+  "ResetType": "InitialValue",
+  "Regenerating": []
+}
