@@ -19,6 +19,22 @@ public class HeatSourceComponent extends SpatialData<ChunkStore> implements Comp
 
     public HeatSourceComponent() {}
 
+    public float getIntensity() {
+        return this.intensityCelsius;
+    }
+
+    public void setIntensity(float intensity) {
+        this.intensityCelsius = intensity;
+    }
+
+    public float getFalloffRange() {
+        return this.falloffRange;
+    }
+
+    public void setFalloffRange(float falloffRange) {
+        this.falloffRange = falloffRange;
+    }
+
     @NullableDecl
     @Override
     public HeatSourceComponent clone() {

@@ -10,7 +10,9 @@
     ],
     "DisabledByDefault": false,
     "IncludesAssetPack": true,
-    "Dependencies": {},
+    "Dependencies": {
+        "Hytale:EntityStatsModule": "*"
+    },
     "OptionalDependencies": {},
     "ServerVersion": "*",
     "Main": "io.github.techtastic.temperature.Temperature"

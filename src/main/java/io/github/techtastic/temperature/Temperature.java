@@ -11,6 +11,7 @@ import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 import com.hypixel.hytale.server.core.universe.world.storage.ChunkStore;
 import io.github.techtastic.temperature.component.HeatSourceComponent;
+import io.github.techtastic.temperature.systems.HeatSourceRefSystem;
 import io.github.techtastic.temperature.systems.SpatialHeatSystem;
 import io.github.techtastic.temperature.systems.TemperatureSystem;
 import io.github.techtastic.temperature.ui.TemperatureHUD;
@@ -35,6 +36,7 @@ public class Temperature extends JavaPlugin {
 
         this.getEntityStoreRegistry().registerSystem(new TemperatureSystem());
         this.getChunkStoreRegistry().registerSystem(new SpatialHeatSystem());
+        this.getChunkStoreRegistry().registerSystem(new HeatSourceRefSystem());
         this.getEventRegistry().registerGlobal(PlayerReadyEvent.class, TemperatureHUD::onPlayerReady);
     }
 
