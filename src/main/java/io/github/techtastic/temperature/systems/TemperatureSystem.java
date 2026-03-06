@@ -18,7 +18,7 @@ import java.util.Objects;
 
 public class TemperatureSystem extends DelayedEntitySystem<EntityStore> {
     public TemperatureSystem() {
-        super(0.5f);
+        super(1f);
     }
 
     @Override
